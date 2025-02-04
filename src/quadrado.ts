@@ -1,0 +1,14 @@
+
+import { Forma } from "./forma";
+
+class Quadrado extends Forma {
+  constructor(dimensoes: [number, number, number, number]) {
+    super( dimensoes, 4);
+  }
+
+  public set dimensoes(dimensoes: [number, number, number, number]) {
+    this._dimensoes = dimensoes;
+  }
+}
+
+export { Quadrado };
